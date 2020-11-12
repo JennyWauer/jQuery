@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.2.0/d3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>jQuery Functions</title>
 </head>
@@ -12,7 +12,7 @@
 <body>
     <div>
         <h2>Click</h2>
-        <button>Click</button>
+        <button class="click-button">Click</button>
         <p>Click the button to see fuction click.</p>
     </div>
     <div>
@@ -90,6 +90,13 @@
         <button>Click</button>
         <p>Click the button to see fuction click.</p>
     </div>
+
+    <script>
+        $(".click-button").click(function() {
+            console.log("You clicked");
+            $(".click-button").css("background-color", "blue");
+        });
+    </script>
 </body>
 
 </html>
