@@ -17,8 +17,8 @@
     </div>
     <div>
         <h2>Hide</h2>
-        <button>Click</button>
-        <p>Click the button to see fuction click.</p>
+        <button class="hide">Hide</button>
+        <p>Click to see the button hide.</p>
     </div>
     <div>
         <h2>Show</h2>
@@ -96,6 +96,9 @@
             $(".click").css("background-color", "blue");
         });
 
+        $(".hide").click(function(){
+            $(".hide").hide();
+        });
     </script>
 </body>
 
