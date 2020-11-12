@@ -12,7 +12,7 @@
 <body>
     <div>
         <h2>Click</h2>
-        <button class="click-button">Click</button>
+        <button class="click">Click</button>
         <p>Click the button to see fuction click.</p>
     </div>
     <div>
@@ -92,10 +92,10 @@
     </div>
 
     <script>
-        $(".click-button").click(function() {
-            console.log("You clicked");
-            $(".click-button").css("background-color", "blue");
+        $(".click").click(function() {
+            $(".click").css("background-color", "blue");
         });
+
     </script>
 </body>
 
