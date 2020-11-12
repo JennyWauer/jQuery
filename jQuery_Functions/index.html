@@ -22,8 +22,8 @@
     </div>
     <div>
         <h2>Show</h2>
-        <button>Click</button>
-        <p>Click the button to see fuction click.</p>
+        <button class="show">Show</button>
+        <p>Click to see the Hide botton re-appear.</p>
     </div>
     <div>
         <h2>Toggle</h2>
@@ -99,6 +99,10 @@
         $(".hide").click(function(){
             $(".hide").hide();
         });
+
+        $(".show").click(function(){
+            $(".hide").show();
+        })
     </script>
 </body>
 
