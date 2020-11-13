@@ -51,7 +51,8 @@
     <div>
         <h2>FadeIn</h2>
         <button class="fadein">Click</button>
-        <span class="fadein-box"><p>Click the button to see FadeIn.</p></span>
+        <p>Click the button to see FadeIn.</p>
+        <div class="fadein-box"></div>
     </div>
     <div>
         <h2>FadeOut</h2>
@@ -123,6 +124,10 @@
 
         $(".slidetoggle").click(function(){
             $(".slidetoggle-p").slideToggle();
+        })
+
+        $(".fadein").click(function(){
+            $(".fadein-box").fadeIn();
         })
 
     </script>
