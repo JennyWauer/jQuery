@@ -27,8 +27,9 @@
     </div>
     <div>
         <h2>Toggle</h2>
-        <button>Click</button>
-        <p>Click the button to see fuction click.</p>
+        <button class="toggle-button">Toggle</button>
+        <p class="toggle">Click the button to see the toggle function.</p>
+        <p class="toggle" style="display: none">Toggle Back</p>
     </div>
     <div>
         <h2>SlideDown</h2>
@@ -102,6 +103,10 @@
 
         $(".show").click(function(){
             $(".hide").show();
+        })
+
+        $(".toggle-button").click(function(){
+            $(".toggle").toggle();
         })
     </script>
 </body>
