@@ -33,7 +33,7 @@
     </div>
     <div>
         <h2>SlideDown</h2>
-        <button>SlideDown</button>
+        <button class="slidedown-button">SlideDown</button>
         <p>Click the button to see a hidden image.</p>
         <img class="cookie" src="Cookies.jpg" alt="Cookies">
     </div>
@@ -109,6 +109,12 @@
         $(".toggle-button").click(function(){
             $(".toggle").toggle();
         });
+
+        $(".slidedown-button").click(function(){
+            if($(".cookie").first().is( ":hidden" )){
+                $(".cookie").slideDown("slow");
+            }
+        })
 
     </script>
 </body>
