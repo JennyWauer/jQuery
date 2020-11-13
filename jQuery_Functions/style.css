@@ -33,7 +33,7 @@ p{
 .fadein-box{
     display: none;
     height: 75px;
-    width: auto;
+    width: 200px;
     background-color: purple;
     opacity: 25%;
 }
