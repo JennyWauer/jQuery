@@ -45,8 +45,8 @@
     </div>
     <div>
         <h2>SlideToggle</h2>
-        <button>Click</button>
-        <p>Click the button to see fuction click.</p>
+        <button class="slidetoggle">Click</button>
+        <p class="slidetoggle-p">Click the button to see SlideToggle</p>
     </div>
     <div>
         <h2>FadeIn</h2>
@@ -121,6 +121,9 @@
             $(".box").slideUp();
         })
 
+        $(".slidetoggle").click(function(){
+            $(".slidetoggle-p").slideToggle();
+        })
 
     </script>
 </body>
