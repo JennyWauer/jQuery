@@ -37,3 +37,9 @@ p{
     background-color: purple;
     opacity: 25%;
 }
+
+.fadeout-box{
+    height: 75px;
+    width: 200px;
+    background-color: pink;
+}
