@@ -63,7 +63,7 @@
     <div>
         <h2>Before</h2>
         <button class="before">Click</button>
-        <p>Click the button to check out the Before function.</p>
+        <p class="before-p">Click the button to check out the Before function.</p>
     </div>
     <div>
         <h2>After</h2>
@@ -133,6 +133,10 @@
 
         $(".fadeout").click(function(){
             $(".fadeout-box").fadeOut();
+        })
+
+        $(".before").click(function(){
+            $(".before-p").before("<h1>I am now before!</h1>")
         })
 
     </script>
