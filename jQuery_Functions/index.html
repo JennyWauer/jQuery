@@ -56,8 +56,9 @@
     </div>
     <div>
         <h2>FadeOut</h2>
-        <button>Click</button>
-        <p>Click the button to see fuction click.</p>
+        <button class="fadeout">Click</button>
+        <p>Click the button to see FadeOut.</p>
+        <div class="fadeout-box"></div>
     </div>
     <div>
         <h2>Before</h2>
@@ -128,6 +129,10 @@
 
         $(".fadein").click(function(){
             $(".fadein-box").fadeIn();
+        })
+
+        $(".fadeout").click(function(){
+            $(".fadeout-box").fadeOut();
         })
 
     </script>
