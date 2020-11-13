@@ -29,3 +29,11 @@ p{
     background-color: aqua;
     border: 2px solid black;
 }
+
+.fadein-box{
+    display: none;
+    height: 75px;
+    width: auto;
+    background-color: purple;
+    opacity: 25%;
+}
