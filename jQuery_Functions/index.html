@@ -94,8 +94,9 @@
     </div>
     <div>
         <h2>Text</h2>
-        <button>Click</button>
-        <p>Click the button to see fuction click.</p>
+        <button class="text">Click</button>
+        <p class="text-p">Click the button to see the Text function.</p>
+        <p class="new-text"></p>
     </div>
 
     <script>
@@ -161,6 +162,11 @@
         $(".val").keyup(function(){
             var text = $( this ).val();
             $(".val-p").html(text);
+        })
+
+        $(".text").click(function(){
+            var textContent = $(".text-p").text();
+            $(".new-text").html(textContent);
         })
     </script>
 </body>
