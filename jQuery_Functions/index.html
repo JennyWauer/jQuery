@@ -156,6 +156,11 @@
             var content = $(".attr-p").attr("class");
             $(".attr-p").html(content);
         })
+
+        $(".val").keyup(function(){
+            var text = $(this).val;
+            $(".val-p").html(text);
+        })
     </script>
 </body>
 
