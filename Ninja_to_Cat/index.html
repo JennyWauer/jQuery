@@ -9,15 +9,29 @@
 </head>
 <body>
     <div class="container">
-        <img class="cat-pic" src="img/cat0.png" alt="Cat Ears">
-        <img class="cat-pic" src="img/cat1.png" alt="Cat Face">
-        <img class="cat-pic" src="img/cat2.png" alt="Cat Body">
-        <img class="cat-pic" src="img/cat3.png" alt="Cat Legs">
-        <img class="cat-pic" src="img/cat4.png" alt="Cat Feet">
+        <img class="cat-pic0" src="img/cat0.png" alt="Cat Ears">
+        <img class="cat-pic1" src="img/cat1.png" alt="Cat Face">
+        <img class="cat-pic2" src="img/cat2.png" alt="Cat Body">
+        <img class="cat-pic3" src="img/cat3.png" alt="Cat Legs">
+        <img class="cat-pic4" src="img/cat4.png" alt="Cat Feet">
     </div>
     
     <script>
-        
+        $(".cat-pic0").click(function(){
+            $(this).attr("src", "img/ninja0.png")
+        })
+        $(".cat-pic1").click(function(){
+            $(this).attr("src", "img/ninja1.png")
+        })
+        $(".cat-pic2").click(function(){
+            $(this).attr("src", "img/ninja2.png")
+        })
+        $(".cat-pic3").click(function(){
+            $(this).attr("src", "img/ninja3.png")
+        })
+        $(".cat-pic4").click(function(){
+            $(this).attr("src", "img/ninja4.png")
+        })
     </script>
 </body>
 </html>
