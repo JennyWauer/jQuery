@@ -12,3 +12,11 @@
     display: inline-block;
 }
 
+button {
+    display: block;
+    margin: 0.67em 0em;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
